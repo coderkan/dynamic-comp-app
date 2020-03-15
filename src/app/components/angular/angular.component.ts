@@ -9,7 +9,7 @@ import { FrameworkComponent } from '../framework.component';
 export class AngularComponent implements OnInit, FrameworkComponent{
 
   @Input('data') data: any;
-  
+
   constructor() { }
 
   ngOnInit(): void {
